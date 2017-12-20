@@ -1,0 +1,265 @@
+/*
+* @Author: MacBook Air
+* @Date:   2017-12-19 10:30:51
+* @Last Modified by:   MacBook Air
+* @Last Modified time: 2017-12-19 23:13:51
+*/
+body{
+	font-size: 16px;
+	font-family: "微软雅黑","苹方",
+}
+header{
+	width: 100%;
+	height: 1.77rem;
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999
+}
+.head-top{
+	width: 100%;
+	height: .88rem;
+	background-color: #c93a3a;
+	padding: 0 .24rem;
+}
+.head-top h1{
+	font-size: .37rem;
+	color: #fff;
+	font-weight: bolder;
+	line-height: .88rem;
+	float: left;
+}
+.head-search{
+	width: 5.02rem;
+	height: .57rem;
+	background-color: blue;
+	float: right;
+	margin-top: .155rem;
+}
+.head-search input{
+	width: 100%;
+	height: 100%;
+	padding-left: .68rem;
+	border: 0;
+}
+nav{
+	width: 100%;
+	height: .89rem;
+	padding: 0 .24rem;
+	display: flex;/* 设置弹性布局  默认全部依次横排*/
+	flex-wrap: wrap;/* 设置内容换行 */
+	justify-content: space-between;/* 设置水平方向对齐方式 */
+	align-items: center;/* 设置单行垂直对齐方式 */
+}
+nav a{
+	color: #000;
+	font-size: .34rem;
+	color: #343434;
+}
+.nav-active{
+	color: #d43d3d;
+	font-size: .40rem;
+}
+.nav-more{
+	display: block;
+	width: .53rem;
+	height: 100%;
+	text-align: right;
+	box-shadow: -6px 0 10px #f1f1f1;
+	line-height: .89rem;
+	font-size: .7rem;
+}
+.content{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 1.77rem;
+	bottom: 0.98rem;
+	overflow-y: scroll;
+	/* background-color: pink; */
+}
+.banner{
+	width: 100%;
+	height: 3.1rem;
+	background-color: pink;
+
+}
+.banner-img,.banner-item{
+	width: 100%;
+	height: 100%;
+}
+.category{
+	width: 100%;
+	height: 1.54rem;
+	padding: .24rem;
+	display: flex;/* 设置弹性布局  默认全部依次横排*/
+	flex-wrap: wrap;/* 设置内容换行 */
+	justify-content: space-between;/* 设置水平方向对齐方式  两端对齐*/
+	align-items: center;/* 设置单行垂直对齐方式 */
+}
+.category li{
+	width: 1.2rem;
+	height: 1.25rem;
+	background-color: #fff;
+	display: flex;/* 设置弹性布局  默认全部依次横排*/
+	flex-wrap: wrap;/* 设置内容换行 */
+	justify-content: center;/* 设置水平方向对齐方式 垂直居中*/
+	align-content: space-between;  /* 设置多行垂直两端对齐方式 */
+
+}
+.category-box{
+	width: .72rem;
+	height: .72rem;
+	background-color: plum;
+	border-radius: 50%;
+	box-shadow: 0 0 .2rem #000;
+}
+.category li:nth-child(1) .category-box{
+	box-shadow: 0 0 .25rem rgba(255, 144, 144, .5);
+
+}
+.category li:nth-child(2) .category-box{
+	box-shadow: 0 0 .25rem rgba(162, 157, 255, .5);
+
+}
+.category li:nth-child(3) .category-box{
+	box-shadow: 0 0 .25rem rgba(255, 101, 104, .5);
+
+}
+.category li:nth-child(4) .category-box{
+	box-shadow: 0 0 .25rem rgba(255, 164, 46, .5);
+
+}
+.category-wenzi{
+	font-size: .28rem;
+	color: #343434;
+	font-weight: 700;
+}
+.notice{
+	width: 100%;
+	height: 2.48rem;
+	/* background-color: blue; */
+	border-top: .02rem solid #e5e5e5;
+	padding: .29rem .24rem 0;
+}
+.notice-top{
+	width: 100%;
+	height: 1.46rem;
+	/* background-color: red; */
+}
+.notice-top p{
+	width: 4.36rem;
+	height: 100%;
+	font-size: .36rem;
+	float: left;
+	color: #343434;
+}
+.notice-img{
+	width: 2.24rem;
+	height: 100%;
+	background-color: pink;
+	float: right;
+}
+.notice-bottom{
+	width: 100%;
+	overflow: hidden;
+	margin-top: .1rem;
+}
+.name,.pinglun,.time{
+	float: left;
+	margin-right: .2rem;
+	font-size: .24rem;
+	color: #ccc;
+}
+.end{
+	float: right;
+	color: #ccc;
+	font-size: .24rem;
+}
+.jinji{
+	width: 100%;
+	height: 1.8rem;
+	/* background-color: blue; */
+	padding: .2rem .24rem .2rem;
+}
+.jinji .jinji-p{
+	margin-bottom: .3rem;
+}
+.pifu{
+	width: 100%;
+	height: 3.58rem;
+	border-top: .02rem solid #f2f2f2;
+	/* background-color: blue; */
+	padding: .34rem .24rem .25rem;
+}
+.pifu-top{
+	width: 100%;
+	height: .87rem;	
+}
+.pifu-top p{
+	width: 100%;
+	height: 100%;
+	font-size: .36rem;
+	color: #343434;
+	/* background-color: plum; */
+}
+.pifu-img{
+	width: 100%;
+	height: 1.7rem;
+	margin-top: .15rem;
+	/* background-color: red; */
+	display: flex;/* 设置弹性布局  默认全部依次横排*/
+	flex-wrap: wrap;/* 设置内容换行 */
+	justify-content: space-between;/* 设置水平方向对齐方式  两端对齐*/
+	align-items: center;/* 设置单行垂直对齐方式 */
+}
+.pifu-img-item{
+	width: 2.24rem;
+	height: 1.47rem;
+	background-color: yellowgreen;
+	float: left;
+} 
+.pifu-bottom{
+	width: 100%;
+	overflow: hidden;
+	margin-top: .1rem;
+}
+footer{
+	width: 100%;
+	height: .98rem;
+	background-color: #fff;
+	padding: .22rem .5rem .1rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+	display: flex;/* 设置弹性布局  默认全部依次横排*/
+	flex-wrap: wrap;/* 设置内容换行 */
+	justify-content: space-between;/* 设置水平方向对齐方式  两端对齐*/
+	align-items: center;/* 设置单行垂直对齐方式 */
+
+}
+.footer-item{
+	width: 1.0rem;
+	height: .65rem;
+	float: left;
+	text-align: center;
+}
+.footer-item .footer-item-jiaohao{
+	color: #191919;
+	font-size: .7rem;
+
+}
+.footer-item-box{
+	width: .4rem;
+	height: .4rem;
+	margin: 0 auto;
+}
+.footer-item-wenzi{
+	font-size: .18rem;
+	color: #9d9d9d;
+}
+.footer-item-wenzi-active{
+	color:#f85959;
+}

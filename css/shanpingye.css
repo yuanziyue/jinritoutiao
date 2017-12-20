@@ -1,0 +1,12 @@
+/*
+* @Author: MacBook Air
+* @Date:   2017-12-19 17:56:25
+* @Last Modified by:   MacBook Air
+* @Last Modified time: 2017-12-19 20:46:48
+*/
+body{
+	width: 100vw;  /* vw根据当前窗口宽度，等比分成100份 */
+	height: 100vh;
+	background-color: plum;
+
+}
