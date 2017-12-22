@@ -2,7 +2,7 @@
 * @Author: MacBook Air
 * @Date:   2017-12-19 10:30:51
 * @Last Modified by:   MacBook Air
-* @Last Modified time: 2017-12-19 23:13:51
+* @Last Modified time: 2017-12-20 23:06:28
 */
 body{
 	font-size: 16px;
@@ -33,7 +33,6 @@ header{
 .head-search{
 	width: 5.02rem;
 	height: .57rem;
-	background-color: blue;
 	float: right;
 	margin-top: .155rem;
 }
@@ -68,7 +67,7 @@ nav a{
 	text-align: right;
 	box-shadow: -6px 0 10px #f1f1f1;
 	line-height: .89rem;
-	font-size: .7rem;
+	font-size: .6rem;
 }
 .content{
 	position: absolute;
@@ -217,7 +216,7 @@ nav a{
 .pifu-img-item{
 	width: 2.24rem;
 	height: 1.47rem;
-	background-color: yellowgreen;
+	box-shadow: 0 0 10px #ececec;
 	float: left;
 } 
 .pifu-bottom{

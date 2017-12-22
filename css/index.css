@@ -2,7 +2,7 @@
 * @Author: MacBook Air
 * @Date:   2017-12-19 10:30:51
 * @Last Modified by:   MacBook Air
-* @Last Modified time: 2017-12-19 22:31:04
+* @Last Modified time: 2017-12-20 23:06:25
 */
 body{
 	font-size: 16px;
@@ -33,7 +33,6 @@ header{
 .head-search{
 	width: 5.02rem;
 	height: .57rem;
-	background-color: blue;
 	float: right;
 	margin-top: .155rem;
 }
@@ -68,7 +67,7 @@ nav a{
 	text-align: right;
 	box-shadow: -6px 0 10px #f1f1f1;
 	line-height: .89rem;
-	font-size: .7rem;
+	font-size: .6rem;
 }
 .content{
 	position: absolute;
@@ -82,7 +81,6 @@ nav a{
 .banner{
 	width: 100%;
 	height: 3.1rem;
-	background-color: pink;
 
 }
 .banner-img,.banner-item{
@@ -111,7 +109,6 @@ nav a{
 .category-box{
 	width: .72rem;
 	height: .72rem;
-	background-color: plum;
 	border-radius: 50%;
 	box-shadow: 0 0 .2rem #000;
 }
@@ -138,15 +135,12 @@ nav a{
 }
 .notice{
 	width: 100%;
-	height: 2.48rem;
-	/* background-color: blue; */
 	border-top: .02rem solid #e5e5e5;
 	padding: .29rem .24rem 0;
 }
 .notice-top{
 	width: 100%;
 	height: 1.46rem;
-	/* background-color: red; */
 }
 .notice-top p{
 	width: 4.36rem;
@@ -158,7 +152,6 @@ nav a{
 .notice-img{
 	width: 2.24rem;
 	height: 100%;
-	background-color: pink;
 	float: right;
 }
 .notice-bottom{
@@ -181,7 +174,6 @@ nav a{
 	width: 100%;
 	height: 3.58rem;
 	border-top: .02rem solid #f2f2f2;
-	/* background-color: blue; */
 	padding: .34rem .24rem .25rem;
 }
 .pifu-top{
@@ -193,13 +185,11 @@ nav a{
 	height: 100%;
 	font-size: .36rem;
 	color: #343434;
-	/* background-color: plum; */
 }
 .pifu-img{
 	width: 100%;
 	height: 1.7rem;
 	margin-top: .15rem;
-	/* background-color: red; */
 	display: flex;/* 设置弹性布局  默认全部依次横排*/
 	flex-wrap: wrap;/* 设置内容换行 */
 	justify-content: space-between;/* 设置水平方向对齐方式  两端对齐*/
@@ -208,8 +198,8 @@ nav a{
 .pifu-img-item{
 	width: 2.24rem;
 	height: 1.47rem;
-	background-color: yellowgreen;
 	float: left;
+	box-shadow: 0 0 10px #ececec;
 } 
 .pifu-bottom{
 	width: 100%;
@@ -253,4 +243,7 @@ footer{
 }
 .footer-item-wenzi-active{
 	color:#f85959;
+}
+.content .swiper-pagination-bullet-active{
+	background-color: rgba(255, 255, 255, .8);
 }

@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="css/index.css">
    <link rel="stylesheet" href="iconfont/iconfont.css">
 	<script src="js/rem.js"></script>
+   <link rel="stylesheet" href="css/swiper.min.css">
 </head>
 <body>
    <!-- 头部开始 -->
@@ -21,11 +22,11 @@
 
    		<nav>
    			<a href="">关注</a>
-   			<a href="">推荐</a>
+   			<a href="xaingqingye.html">推荐</a>
    			<a href="">热点</a>
    			<a href="" class="nav-active">太原</a>
    			<a href="">视频</a>
-   			<a href="">社会</a>
+   			<a href="weather.html">天气</a>
    			<a href="" class="nav-more">+</a>
    		</nav>
    		<!-- 弹性布局在容器里面设置 -->
@@ -34,12 +35,21 @@
 
    <!-- 内容开始 -->
    <div class="content">
-   		<section class="banner">
-   			<div class="banner-img">
-   				<div class="banner-item">
+   		<section class="banner swiper-container">
+   			<div class="banner-img swiper-wrapper">
+   				<div class="banner-item swiper-slide">
    					<img src="img/banner.jpg" alt="">
    				</div>
+
+               <div class="banner-item swiper-slide">
+                  <img src="img/banner2.jpg" alt="">
+               </div>
+
+               <div class="banner-item swiper-slide">
+                  <img src="img/banner3.jpg" alt="">
+               </div>
    			</div>
+            <div class="swiper-pagination"></div>
    		</section>
 
    		<ul class="category">
@@ -216,3 +226,17 @@
 	
 </body>
 </html>
+<script src="js/jquery.js"></script>
+<script src="js/swiper.min.js"></script>
+<script>        
+  var mySwiper = new Swiper ('.swiper-container', {
+       loop: true,
+       autoplay: true,    //自动轮播   
+       effect : 'fade',
+    // 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+    },
+
+  })        
+  </script>

@@ -2,11 +2,23 @@
 * @Author: MacBook Air
 * @Date:   2017-12-19 17:56:25
 * @Last Modified by:   MacBook Air
-* @Last Modified time: 2017-12-19 20:46:48
+* @Last Modified time: 2017-12-20 17:59:35
 */
 body{
 	width: 100vw;  /* vw根据当前窗口宽度，等比分成100份 */
 	height: 100vh;
-	background-color: plum;
 
+}
+
+#lunbo .swiper-pagination-bullet{
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+}
+#lunbo .swiper-pagination-bullet-active{
+	background-color: #fff;
+	width: 26px;
+	height: 9px;
+	border-radius: 36%;
+	background-color: rgba(255, 255, 255, .6);
 }
